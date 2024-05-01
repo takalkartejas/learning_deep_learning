@@ -47,10 +47,33 @@ Tutorial7 - What is neuron
 5. In this example we convert the image from 2d array to 1d array and supply to the neural network, and the neural network does not have any hidden layers. We will first solve without the hidden layer and then add it and check how the accuracy improves 
 </details>
 
+<details> <summary>
+Tutorial8 - activation function
+   
+</summary>
+![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/760c9e34-cb69-4440-9b9d-1ae494b04741)
+1. sigmoid-
+   ![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/fb2ce986-6d7e-4884-94be-db8b0b572be5)
 
+   use sigmoid in output layer as it convets output to 0 to 1
+2. tanh- 
+3. ![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/3be5c289-5d1a-448e-84b3-4cf672c54bb3)
+   use for hidden layers as it outputs from -1 to 1, centering data around 0
+4.Sigmoid and tanh function has really low derivative for higher values which slows down learning process, **vanishing gradient problem**
+5. Relu- 
+    value < 0: output = 0, value>0, output=value
+    ![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/cefc1bdb-b2b5-4a13-a7c7-b978a8b44a2e)
+    it is light weight and good for computation speed, used by default for deep learning problems
+
+    vanishing gradient problem in -ve range
+6. leaky relu-
+   ![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/191c875d-0452-4adb-9376-c9bc3c6f8673)
+
+   to solve the vanishing gradient problem in relu
+</details>
 
 
   
-
+goal- 8, 11, 12, 
 
 
