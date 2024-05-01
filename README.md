@@ -51,7 +51,9 @@ Tutorial7 - What is neuron
 Tutorial8 - activation function
    
 </summary>
+
 ![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/760c9e34-cb69-4440-9b9d-1ae494b04741)
+
 1. sigmoid-
    ![image](https://github.com/takalkartejas/learning_deep_learning/assets/67382565/fb2ce986-6d7e-4884-94be-db8b0b572be5)
 
